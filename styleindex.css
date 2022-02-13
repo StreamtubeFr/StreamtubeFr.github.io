@@ -34,6 +34,9 @@ nav {
     top: 0;
     z-index: 10;
 }
+.genrecolor{
+    color: #ed3833;
+}
 
 .nav-right img {
     width: 25px;
@@ -111,9 +114,7 @@ nav {
     flex-wrap: wrap;
 }
 
-.shortcut-links a:first-child {
-    color: #ed3833;
-}
+
 
 .sidebar hr {
     border: 0;
