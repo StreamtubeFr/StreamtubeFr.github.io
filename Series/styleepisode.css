@@ -657,3 +657,38 @@ body{
 .mt-3{
     margin-top: 1rem!important;
 }
+
+@media only screen and (max-width:1024px) {
+    .col-12{
+        position: relative;
+        width: 250px;
+        padding-right: 15px;
+        padding-left: 15px;
+        
+        background-color: rgb(36, 35, 35);
+        left: 00px;
+        top: 0px;
+        padding-top: 5px;
+    }
+    .pl-4 .list-group{
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-column-gap: 5px;
+        
+        
+    }
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: 0.25rem 0.25rem;
+        background-color: #000e1e;
+        border: 1px solid rgba(0,0,0,.125);
+        width: 100px;
+    }
+    .mt-3{
+        position: relative;
+        left:120px;
+        top: -628px;
+        margin-top: 10%;
+    }
+}
